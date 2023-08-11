@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaEdit, FaRegTrashAlt } from 'react-icons/fa'
 
-const Todo = ({ task, toggleComplete }) => {
+const Todo = ({ task, toggleComplete, deleteTodo, editTodo }) => {
   return (
     <div className="todo">
       <p
@@ -11,8 +11,8 @@ const Todo = ({ task, toggleComplete }) => {
         {task.task}
       </p>
       <div>
-        <FaEdit />
-        <FaRegTrashAlt />
+        <FaEdit onClick={() => editTodo(task.id)} />
+        <FaRegTrashAlt onClick={() => deleteTodo(task.id)} />
       </div>
     </div>
   )
