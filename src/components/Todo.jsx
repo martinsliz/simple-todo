@@ -6,9 +6,15 @@ const Todo = ({ task, toggleComplete, deleteTodo, editTodo }) => {
     <div className="todo">
       <p className={`${task.completed ? 'completed' : ''}`}>{task.task}</p>
       <div>
-        <FaEdit onClick={() => editTodo(task.id)} />
-        <FaRegTrashAlt onClick={() => deleteTodo(task.id)} />
-        <FaCheck onClick={() => toggleComplete(task.id)} />
+        <button>
+          <FaEdit onClick={() => editTodo(task.id)} />
+        </button>
+        <button className="fa-trash">
+          <FaRegTrashAlt onClick={() => deleteTodo(task.id)} />
+        </button>
+        <button className="fa-check">
+          <FaCheck onClick={() => toggleComplete(task.id)} />
+        </button>
       </div>
     </div>
   )
