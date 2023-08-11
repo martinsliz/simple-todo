@@ -42,8 +42,7 @@ Open http://localhost:5173 to view it in your browser.
 
 ### Screenshots
 
-![Image]()
-![Image]()
+### ![Image](src/assets/list.png)
 
 ---
 
@@ -55,4 +54,4 @@ Open http://localhost:5173 to view it in your browser.
 
 ### _Credits_
 
-[W3 Schools](https://www.w3schools.com/css/) || [MDN](https://developer.mozilla.org/en-US/) || [Sequelize](https://sequelize.org/) || [Stack Overflow](https://stackoverflow.com/) || [Unsplash](https://unsplash.com/) || [React Icons](https://react-icons.github.io/react-icons) || [Hypercolor](https://hypercolor.dev/)
+[W3 Schools](https://www.w3schools.com/css/) || [Unsplash](https://unsplash.com/) || [React Icons](https://react-icons.github.io/react-icons) || [Hypercolor](https://hypercolor.dev/)
