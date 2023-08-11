@@ -51,7 +51,7 @@ const TodoWrapper = () => {
 
   return (
     <div className="TodoWrapper">
-      <h1>To Do:</h1>
+      <h1>what will you do today?</h1>
       <TodoForm addTodo={addTodo} />
       {/* display todos */}
 

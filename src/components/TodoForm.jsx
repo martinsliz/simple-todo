@@ -18,12 +18,12 @@ const TodoForm = ({ addTodo }) => {
         <input
           type="text"
           className="todo-input"
-          placeholder="What is the task today?"
+          placeholder="your task"
           value={value}
           onChange={handleChange}
         />
         <button type="submit" className="todo-btn">
-          ADD NEW
+          add task
         </button>
       </form>
     </div>
