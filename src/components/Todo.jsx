@@ -5,8 +5,8 @@ const Todo = ({ task, toggleComplete, deleteTodo, editTodo }) => {
   return (
     <div className="todo">
       <p className={`${task.completed ? 'completed' : ''}`}>{task.task}</p>
-      <div>
-        <button>
+      <div className="button-container">
+        <button className="fa-edit">
           <FaEdit onClick={() => editTodo(task.id)} />
         </button>
         <button className="fa-trash">
