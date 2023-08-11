@@ -58,7 +58,7 @@ h1 {
   cursor: pointer;
 }
 
-.Todo {
+.todo {
   display: flex;
   justify-content: space-between;
   align-items: center;
